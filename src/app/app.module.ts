@@ -11,12 +11,17 @@ import { ViewAllPatientsComponent } from './view-all-patients/view-all-patients.
 
 
 const myRoute:Routes=[
+  {
+    path:"",
+    component:PatientEntryComponent
+  },
+ 
  
   {
     path:"Search",
     component:PatientSearchComponent
   },
-  
+ 
   {
     path:"ViewAll",
     component:ViewAllPatientsComponent
