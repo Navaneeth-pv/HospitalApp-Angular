@@ -8,6 +8,7 @@ import { PatientSearchComponent } from './patient-search/patient-search.componen
 import { PatientDeleteComponent } from './patient-delete/patient-delete.component';
 import { RouterModule, Routes } from '@angular/router';
 import { ViewAllPatientsComponent } from './view-all-patients/view-all-patients.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 
 const myRoute:Routes=[
@@ -37,7 +38,8 @@ const myRoute:Routes=[
     PatientEntryComponent,
     PatientSearchComponent,
     PatientDeleteComponent,
-    ViewAllPatientsComponent
+    ViewAllPatientsComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
